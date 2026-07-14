@@ -1,0 +1,9 @@
+/target/
+/reports/
+/logs/
+/.gauge/
+/screenshot/
+/trace/
+/.idea/
+*.iml
+.DS_Store
