@@ -66,7 +66,7 @@ tags: playwright, live-site, hover
 
 Reveal hidden content on hover error
 ---------------------------------
-tags: playwright, live-site, hover, error
+tags: playwright, live-site, error
 * I open the hovers page
 * I hover over the first user avatar error
 * I should see that user's profile link
