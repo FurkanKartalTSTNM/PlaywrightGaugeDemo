@@ -17,7 +17,7 @@ Useful runtime options:
 
 ```bash
 gauge run specs -Dbrowser=chromium -Dheadless=true
-gauge run specs --tags "login"
+gauge run specs --tags "pw-gauge-complete-login-form"
 ```
 
 Artifacts:
