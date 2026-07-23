@@ -18,14 +18,14 @@ public class PlaywrightHooks {
         PlaywrightRuntime.launchBrowser();
 
         // 1. COMMAND_PARAMETER
-        String demoParam = System.getProperty("commandParameter");
+        String demoParam = System.getProperty("demo");
         // 2. ENVIRONMENT_PARAMETER
-        String denemeParam = System.getenv("environmentParameter");
+        String denemeParam = System.getenv("deneme");
 
         // 1. COMMAND_PARAMETER
-        String demoParam2 = System.getProperty("commandParameter2");
+        String demoParam2 = System.getProperty("demo2");
         // 2. ENVIRONMENT_PARAMETER
-        String denemeParam2 = System.getenv("environmentParameter2");
+        String denemeParam2 = System.getenv("deneme2");
 
         System.out.println(">>> [COMMAND_PARAMETER] demo: " + demoParam);
         System.out.println(">>> [ENVIRONMENT_PARAMETER] deneme: " + denemeParam);
